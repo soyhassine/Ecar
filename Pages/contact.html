@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>eCar site web statique</title>
+	<link rel="shortcut icon" type="image/ico" href="../Image/Header/logo1.png" />
+	<link href="../CSS/eCar1.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="../JS/ecar.js"></script>
+	
+</head>
+
+<body>
+	
+	<header>
+	<div id="bloc2"> <br/>
+		
+		<div>
+			<a href="../home.html" id="eCar">eCar</a>
+			<a href="../home.html"><img alt="logo_ecar" id="logo1" src="../Image/Header/logo1.png"/></a>
+			<a id="accueil" href="../home.html">Accueil</a>
+			<ul class="menu-deroulant">
+			<li><a  class="if" href="#"> Produits</a>
+				<ul>
+					<li><a class="der" href="autonome.html">Véhicules Autonomes</a></li>
+					<li><a  class="der" href="solaire.html">Véhicules Electriques/Solaires</a></li>
+					<li><a  class="der" href="confort.html">Véhicules Confortables</a></li>
+					<li><a class="der" href="LibreService.html">Véhicules Libres-Services</a></li>
+				</ul>
+			</li>
+			</ul>
+			
+			<ul class="menu-deroulant">
+			<li><a href="#" class="ifh">Plus d'infos</a>
+				<ul>	
+					<li><a class="derr" href="partenaire.html">Partenaires</a></li>
+					<li><a  class="derrh" href="contact.html">Contact</a></li>
+			</li>
+			</ul>
+
+
+		</div>
+		
+		
+		<div id="ct">
+		
+			<h1>Page de contact</h1>
+			
+			<form id="Form" action="MAILTO:societe-ecar@laposte.com" method="post" enctype="text/plain">
+			<p>
+			  <label><span class="obligatoire">*</span>Nom : 
+				<input type="text" id="Nom" class=":valid" placeholder="hassine" required>
+			  </label>
+			 
+			  <label>&nbsp;&nbsp;<span class="obligatoire">*</span>Prenom : 
+				<input type="text" id="Prenom" placeholder="Ben Salem" required>
+			  </label>
+			  </p>
+			<p>
+			  <label for="email" ><span class="obligatoire"> *</span>Email:</label>
+			  <input type="email" placeholder="hassine.bs@gmail.com"  id="email" required>
+			  
+				
+			  <label for="tel">&nbsp;&nbsp;&nbsp;&nbsp;Tel:</label>
+			  <input type="tel" placeholder="99 992 888"  id="tel" pattern="[0-9]{8}">
+			 </p>
+			 <p>
+			  <label >Votre Message :</label><br/>
+			  <textarea name="message" cols="60" rows="6" placeholder="Tapez ici votre message...." ></textarea> 
+			  
+			  <br>
+			  <br>
+			  <input type="submit" class="btn" onClick="Verification()" value="Valider" >
+			  <input type="reset" class="btn">
+			  </p>
+			</form>
+			
+
+				
+		</div>
+		
+		
+
+	
+	
+	</div>
+	</header>
+	
+
+	
+	<div id="lh"></div>
+	
+	<footer>
+		
+		<div class="foot">
+			<h2>Nous contacter</h2>
+			<img src="../Image/Footer/map.png" title="map" alt="image non trouvé">Borj Louzir Ariana<br/>Tunisie<br/><br/>
+			<img src="../Image/Footer/mail.png" title="mail" alt="image non trouvé"><a id="ne" href="contact.html"> Nous écrire</a><br/><br/>
+			<img src="../Image/Footer/phone.png" title="phone" alt="image non trouvé"> (+216) 99 992 888<br/><br/><br/>
+			<a href="http://www.facebook.com/" target="_blank"><img src="../Image/Footer/facebook.png" title="facebook" alt="image non trouvé" class="RS"></a>&nbsp;&nbsp;&nbsp;<a href="http://www.twitter.com/" target="_blank"><img src="../Image/Footer/twitter.png" class="RS" title="twitter" alt="image non trouvé"></a>
+		</div>
+		
+		
+	</footer>
+	
+
+</body>
+</html>	
+
+
+
+
+
+
+
+
+
+	
